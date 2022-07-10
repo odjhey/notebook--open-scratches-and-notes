@@ -1,0 +1,19 @@
+{
+  "name": "playground--fp-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Odee <odjhey@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node -r @swc-node/register main.ts",
+    "r": "node -r @swc-node/register"
+  },
+  "dependencies": {
+    "fp-ts": "^2.12.1",
+    "zod": "^3.17.3"
+  },
+  "devDependencies": {
+    "@swc-node/register": "^1.5.1",
+    "typescript": "^4.7.4"
+  }
+}
