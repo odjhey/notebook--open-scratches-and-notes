@@ -147,6 +147,10 @@ A: what are DTOs? (Data Transfer Objects)?
 DTO from wiki: DTO does not have any behavior except for storage, retrieval, serialization and deserialization of its own data
 
 see DAO: a data access object (DAO) is a pattern that provides an abstract interface to some type of database or other persistence mechanism.  
-"Repos" are your aggregates, DAOs are abstractions of your persistence, Repos are closer to the domain, daos as used to make repos  
-still unsure if below is right, but could think about the difference as, DAO's updates are normally single operations, whereas repos would require there own UnitOfWork (transaction)
+
+DAO vs Repo  
+"Repos" are your aggregates, DAOs are abstractions of your persistence,  
+Repos are closer to the domain, daos as used to make repos  
+repos handle collections,  
+still unsure if below is right, but could think about the difference as, DAO's updates are normally single operations, whereas repos would require their own UnitOfWork (transaction)
 
