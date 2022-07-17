@@ -142,9 +142,10 @@ storeCustomer Customer => AsyncResult<Customer>
 ```
 
 
-A: what are DTOs? (Data Transfer Objects)
-Data objects, different from DAO
-from wiki: DTO does not have any behavior except for storage, retrieval, serialization and deserialization of its own data
+A: what are DTOs? (Data Transfer Objects)?  
+"Serializables" - can travel accross software layers, different from DAO  
+DTO from wiki: DTO does not have any behavior except for storage, retrieval, serialization and deserialization of its own data
 
-see DAO: a data access object (DAO) is a pattern that provides an abstract interface to some type of database or other persistence mechanism. 
+see DAO: a data access object (DAO) is a pattern that provides an abstract interface to some type of database or other persistence mechanism.  
+"Repos" are your aggregates, DAOs are abstractions of your persistence, Repos are closer to the domain, daos as used to make repos
 
